@@ -1,13 +1,13 @@
-timezone:    Europe/Berlin
-future:      false
+timezone: Europe/Berlin
+future: false
 # Set baseurl to the base path of the site eg "/mytalk"
 # baseurl:     "/github-slideshow"
 # The allowed values are 'rouge', 'pygments' or null.
 highlighter: rouge
 # markdown - Valid options are [ maruku | rdiscount | kramdown | redcarpet ]
-markdown:    kramdown
-lsi:         false
-permalink:   "/:title"
+markdown: kramdown
+lsi: false
+permalink: "/:title"
 
 kramdown:
   ## for german: "sbquo,lsquo,bdquo,ldquo"
@@ -17,16 +17,16 @@ plugins:
   - jemoji
 
 ## personalize your slide show
-title:       github-slideshow
-author:      GitHubTeacher
+title: github-slideshow
+author: GitHubTeacher
 description: A fun activity for learning Git and GitHub.
 
 sass:
-  style:     :compressed
+  style: :compressed
 
 ## solarized variant (dark/light)
 solarized:
-  theme:     dark
+  theme: dark
 
 slideNumber:
   # Slide number formatting can be configured using these variables:
@@ -35,7 +35,7 @@ slideNumber:
   #    "c":  flattened slide number
   #  "c/t":  flattened slide number / total slides
   # "none":  dont't show slide numbers
-  format:    "c/t"
+  format: "c/t"
 
 ## Reveal.initialize
 ## At the end of your page Jekyll initializes reveal by running the following code. Note that all config values are optional and will default as specified below.
@@ -101,16 +101,17 @@ reveal:
   minScale: 0.2
   maxScale: 1.5
 
-exclude: [
-  "Gemfile",
-  "Gemfile.lock",
-  "vendor",
-  "reveal.js/test",
-  "reveal.js/index.html",
-  "reveal.js/README.md",
-  "reveal.js/bower.json",
-  "reveal.js/Gruntfile.js",
-  "reveal.js/CONTRIBUTING.md",
-  "reveal.js/LICENSE",
-  "reveal.js/package.json"
-]
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "vendor",
+    "reveal.js/test",
+    "reveal.js/index.html",
+    "reveal.js/README.md",
+    "reveal.js/bower.json",
+    "reveal.js/Gruntfile.js",
+    "reveal.js/CONTRIBUTING.md",
+    "reveal.js/LICENSE",
+    "reveal.js/package.json",
+  ]
